@@ -10,7 +10,7 @@ const Info = () => {
           <div className="  text-white ">
             <h1>Name: Aayush Kharel</h1>
             <h1>Email: 10891kharelaayush@gmail.com</h1>
-            <h1>Education: Computer Engineering(BCT) </h1>
+            <h1>Education: B.E Computer Engineering ,T.U  </h1>
           </div>
 
         </div>

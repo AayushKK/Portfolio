@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <>
       <div className="bg-black text-white px-[5%]  py-1 flex items-baseline justify-between sm:flex-col sm:flex-wrap sm:px-[10%]">
-        <NavLink to={'/'} onClick={closeMenu}> <h1 className="text-2xl  ">Tailwind</h1></NavLink>
+        <NavLink to={'/'} onClick={closeMenu}> <h1 className="text-2xl  ">MyPortfolio</h1></NavLink>
 
 
         <nav className={` ${menu ? 'sm:flex flex-col mt-4 flex-wrap align-baseline justify-start' : 'sm:hidden'}

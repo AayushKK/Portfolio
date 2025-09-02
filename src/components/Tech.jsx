@@ -1,5 +1,5 @@
 import React from 'react'
-import { DiAngularSimple, DiCss3, DiJava, DiJavascript, DiNodejs, DiPython, DiReact, DiSwift } from "react-icons/di";
+import { DiCss3, DiJavascript, DiNodejs, DiPython, DiReact } from "react-icons/di";
 const Tech = () => {
   return (
     <div >
@@ -31,21 +31,9 @@ const Tech = () => {
           className='animate-bounce text-blue-500 bg-white' />
 
 
-        <DiAngularSimple
+        <DiPython
           size={170}
-          title='Angular'
-          className='  hover:text-red-600 bg-white ' />
-
-        <DiSwift
-          size={150}
-          title='Swift'
-          className='bg-black text-white rounded-3xl bg-gradient-to-b from-orange-50 to-orange-350' />
-
-        <DiJava
-          size={170}
-          title="Java"
-          className="hover:scale-125  transition-transform duration-300" />
-
+          title='python' />
 
       </div>
 
