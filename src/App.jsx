@@ -1,9 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router"
-import About from "./pages/About"
+import Myprojects from "./pages/Myprojects"
 import Home from "./pages/Home"
 import { Contact } from "./pages/Contact"
 
 import RootLayout from "./components/RootLayout"
+import Myprojectsdetails from "./components/Myprojectsdetails"
 
 
 
@@ -21,8 +22,14 @@ export const App = () => {
           element: <Home />
         },
         {
-          path: 'about',
-          element: <About />
+          path: 'myprojects',
+          element: <Myprojects />
+
+        },
+        {
+          path: 'myprojects/:id',
+          element: <Myprojectsdetails />
+
         },
         {
           path: 'contact',
