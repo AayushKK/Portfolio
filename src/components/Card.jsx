@@ -10,7 +10,7 @@ const Card = () => {
         <Link
           to={`/myprojects/${index}`} // use index or unique id
           key={index}
-          className="block bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden"
+
         >
           <div
             key={index}
@@ -20,13 +20,13 @@ const Card = () => {
               <DiReact className="w-16 h-16 text-blue-500" />
             </div>
             <div className="p-4">
-              <h2 className="text-lg font-bold mb-2">{project.title}</h2>
-              <ul className="text-gray-700 text-sm sm:text-base mb-2 list-disc list-inside line-clamp-3">
+              <h2 className="text-lg font-bold  mb-2 list-disc list-inside line-clamp-1">{project.title}</h2>
+              <ul className="text-gray-700  sm:text-base mb-2 list-disc list-inside line-clamp-3">
                 {project.highlights.map((highlight, i) => (
                   <li key={i}>{highlight}</li>
                 ))}
               </ul>
-              <span className="text-gray-400 text-xs">Stack: {project.stack}</span>
+              <span className="text-gray-400  mb-2 list-disc list-inside line-clamp-1">Stack: {project.stack}</span>
             </div>
           </div>
         </Link>
