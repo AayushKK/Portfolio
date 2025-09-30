@@ -3,6 +3,7 @@ const data = {
     {
       "title": "Ecommerce Platform",
       "stack": "MERN (MongoDB , Express, React, Node.js)",
+      "projectImage": "/Ecommerce-Preview.png",
       "technologies": {
         "frontend": [
           "React",
@@ -50,6 +51,7 @@ const data = {
     {
       "title": "Blog App",
       "stack": "Next.js",
+      "projectImage": "/Blog-App.png",
       "technologies": {
         "frontend": [
           "Next.js",
@@ -71,6 +73,7 @@ const data = {
     {
       "title": "Segmentation of Brain Tumors in MRI using Hybrid CNNs",
       "stack": "TensorFlow, Keras",
+      "projectImage": "/unet-test1.png",
       "technologies": {
         "frontend": [],
         "backend": [

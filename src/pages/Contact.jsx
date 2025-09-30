@@ -27,7 +27,7 @@ export const Contact = () => {
         <div className="bg-white shadow-lg rounded-lg w-full max-w-3xl flex flex-row  md:flex-col overflow-hidden">
 
           {/* Left side: contact info */}
-          <div className="bg-blue-600 text-white p-8 w-1/3 md:w-full flex flex-col justify-center">
+          <div className="bg-black text-white p-8 w-1/3 md:w-full flex flex-col justify-center">
             <h2 className="text-2xl font-semibold mb-4">Get in touch</h2>
             <p className="mb-2 break-words">Email: 10891kharelaayush@gmail.com</p>
             <p className="mb-2">Phone: +977-9860678789</p>

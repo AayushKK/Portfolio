@@ -17,7 +17,13 @@ const Card = () => {
             className="block bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden"
           >
             <div className="flex justify-center items-center bg-gray-100 w-full h-56 sm:h-48 md:h-56 lg:h-60 xl:h-60 2xl:h-60">
-              <DiReact className="w-16 h-16 text-blue-500" />
+              {project.projectImage ? (
+                <img
+                  src={project.projectImage || "/placeholder.svg"}
+                  alt={`${project.title} preview`}
+                  className="relative inset-0 w-full h-full object-cover"
+                />
+              ) : (<DiReact className="w-16 h-16 text-blue-500" />)}
             </div>
             <div className="p-4">
               <h2 className="text-lg font-bold  mb-2 list-disc list-inside line-clamp-1">{project.title}</h2>

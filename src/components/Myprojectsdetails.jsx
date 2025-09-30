@@ -27,7 +27,13 @@ const Myprojectsdetails = () => {
         {/* Project Header */}
         <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
           <div className="flex justify-center items-center bg-gray-100 w-full h-64">
-            <DiReact className="w-24 h-24 text-blue-500" />
+            {project.projectImage ? (
+              <img
+                src={project.projectImage || "/placeholder.svg"}
+                alt={`${project.title} preview`}
+                className="relative inset-0 w-full h-full object-cover"
+              />
+            ) : (<DiReact className="w-16 h-16 text-blue-500" />)}
           </div>
           <div className="p-8">
             <h1 className="text-3xl font-bold text-gray-800 mb-4">{project.title}</h1>
