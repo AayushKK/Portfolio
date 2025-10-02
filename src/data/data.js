@@ -3,6 +3,8 @@ const data = {
     {
       "title": "Ecommerce Platform",
       "stack": "MERN (MongoDB , Express, React, Node.js)",
+      "liveLink": "https://e-commerce-front-sage.vercel.app/",
+      "gitRepo": "https://github.com/AayushKK/E-commerce-Front",
       "projectImage": "/Ecommerce-Preview.png",
       "technologies": {
         "frontend": [
@@ -51,6 +53,8 @@ const data = {
     {
       "title": "Blog App",
       "stack": "Next.js",
+      "liveLink": "https://nextjs-blue-one-29.vercel.app/",
+      "gitRepo": "https://github.com/AayushKK/Nextjs",
       "projectImage": "/Blog-App.png",
       "technologies": {
         "frontend": [
@@ -73,6 +77,7 @@ const data = {
     {
       "title": "Segmentation of Brain Tumors in MRI using Hybrid CNNs",
       "stack": "TensorFlow, Keras",
+      "gitRepo": "https://github.com/AayushKK/Tumor-Segmentation",
       "projectImage": "/unet-test1.png",
       "technologies": {
         "frontend": [],

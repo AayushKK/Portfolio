@@ -2,6 +2,7 @@ import { useParams } from "react-router";
 
 import data from "../data/data";
 import { DiReact } from "react-icons/di";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const Myprojectsdetails = () => {
   const { id } = useParams();
@@ -43,6 +44,36 @@ const Myprojectsdetails = () => {
                 {project.stack}
               </span>
             </div>
+          </div>
+
+          <div className="flex flex-wrap gap-4 m-4">
+            {project.liveLink && (<a
+              href={project.liveLink}
+              target="_blank"
+              rel="noopener noreferrer"
+
+            >
+              <div className="flex items-center gap-2 bg-red-400 text-white px-6 py-2 rounded-lg hover:opacity-90 transition-opacity">
+                <FaExternalLinkAlt className="w-4 h-4 " />
+                Live Demo
+              </div>
+            </a>)
+
+            }
+            {
+              project.gitRepo && (<a
+                href={project.gitRepo}
+                target="_blank"
+                rel="noopener noreferrer"
+
+              >
+                <div className="flex items-center gap-2 bg-black text-white px-6 py-2 rounded-lg hover:opacity-90 transition-opacity">
+                  <FaGithub className="w-4 h-4" />
+                  View Code
+                </div>
+
+              </a>)
+            }
           </div>
         </div>
 
