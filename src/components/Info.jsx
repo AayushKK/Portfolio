@@ -11,6 +11,14 @@ const Info = () => {
             <h1>Name: Aayush Kharel</h1>
             <h1>Email: 10891kharelaayush@gmail.com</h1>
             <h1>Education: B.E Computer Engineering ,T.U  </h1>
+            <h1>    <a
+                href="https://github.com/AayushKK"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gray-300 transition-colors duration-300"
+              >
+                Github Link
+              </a></h1>
           </div>
 
         </div>
