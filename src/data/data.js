@@ -55,7 +55,7 @@ const data = {
       "stack": "React, Next.js, TypeScript, Node.js, Express, PostgreSQL (Neon)",
       "liveLink": "https://mini-job-tracker-frontend.vercel.app/",
       "gitRepo": "https://github.com/AayushKK/Mini-Job-Tracker-Backend",
-      "projectImage": "/vite.svg",
+      "projectImage": "/Job_tracker_Screenshot.png",
       "technologies": {
         "frontend": [
           "React",
