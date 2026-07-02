@@ -51,6 +51,43 @@ const data = {
       ]
     },
     {
+      "title": "Job Tracker",
+      "stack": "React, Next.js, TypeScript, Node.js, Express, PostgreSQL (Neon)",
+      "liveLink": "https://mini-job-tracker-frontend.vercel.app/",
+      "gitRepo": "https://github.com/AayushKK/Mini-Job-Tracker-Backend",
+      "projectImage": "/vite.svg",
+      "technologies": {
+        "frontend": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "React Hook Form",
+          "Zod"
+        ],
+        "backend": [
+          "Node.js",
+          "Express.js",
+          "PostgreSQL (Neon)",
+          "MVC Architecture",
+          "REST API",
+          "UUID",
+          "Database Migrations",
+          "Jest",
+          "Supertest"
+        ]
+      },
+      "highlights": [
+        "Built a full-stack job tracking application with a RESTful API backend and responsive Next.js frontend.",
+        "Designed a PostgreSQL database schema using UUID primary keys, enums, and database triggers for auto-updated timestamps.",
+        "Implemented complete CRUD functionality with search and filtering by application status (Applied, Interviewing, Offer, Rejected).",
+        "Developed an MVC architecture with custom error handling, input validation, and data sanitization for robust backend management.",
+        "Created a modern dashboard with statistics, detailed views, and forms using React Hook Form and Zod.",
+        "Wrote comprehensive unit and integration tests using Jest and Supertest to ensure backend reliability.",
+        "Managed database schema changes with migrations and deployed the frontend on Vercel and backend on Render."
+      ]
+    },
+    {
       "title": "Blog App",
       "stack": "Next.js",
       "liveLink": "https://nextjs-blue-one-29.vercel.app/",
@@ -100,4 +137,3 @@ const data = {
 };
 
 export default data;
-
