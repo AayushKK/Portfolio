@@ -1,5 +1,5 @@
 import React from 'react'
-import { DiCss3, DiJavascript, DiNodejs, DiPython, DiReact } from "react-icons/di";
+import { DiCss3, DiJavascript, DiLaravel, DiNodejs, DiPython, DiReact } from "react-icons/di";
 const Tech = () => {
   return (
     <div >
@@ -34,6 +34,11 @@ const Tech = () => {
         <DiPython
           size={170}
           title='python' />
+
+            <DiLaravel
+          size={170}
+          title='Laravel'
+          className="hover:scale-125 hover:text-red-500 transition-transform duration-300" />
 
       </div>
 
