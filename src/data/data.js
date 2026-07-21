@@ -88,6 +88,28 @@ const data = {
       ]
     },
     {
+  "title": "Task Manager",
+  "stack": "Laravel",
+  "gitRepo": "https://github.com/AayushKK/Task-Manager",
+  "projectImage": "/TaskManager-Preview.png",
+  "technologies": {
+    "frontend": [
+      "Blade"
+    ],
+    "backend": [
+      "Laravel",
+      "PHP",
+      "MySQL",
+      "Eloquent ORM"
+    ]
+  },
+  "highlights": [
+    "Built a simple task management application using the Laravel framework.",
+    "Implemented full CRUD functionality for creating, viewing, updating, and deleting tasks.",
+    "Used Eloquent ORM for database interactions and Blade templating for the UI."
+  ]
+},
+    {
       "title": "Blog App",
       "stack": "Next.js",
       "liveLink": "https://nextjs-blue-one-29.vercel.app/",
